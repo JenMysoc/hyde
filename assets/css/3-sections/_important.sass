@@ -1,0 +1,161 @@
+.section-important
+  position: relative
+
+.important-belt
+  width: 100%
+  position: relative
+  
+  .information-unit
+    max-width: 750px
+    margin: 50px auto
+    position: relative
+    z-index: 1
+    display: none
+
+    &.active-information
+      +display(flex)
+      @extend %#{$animation}
+    
+    .important-face
+      min-width: 300px
+      text-align: center
+      
+      img
+        max-width: 100px
+        border-radius: 50%  
+        
+        
+      .information-name
+        display: block
+        text-transform: uppercase
+        font-weight: 400
+        letter-spacing: 1px
+      
+      .information-title
+        font-style: normal
+        font-size: 12px
+        color: #999
+      
+    .information-content
+      font-size: 18px
+      line-height: 36px
+      font-weight: 300
+      margin-top: -10px
+      position: relative
+      
+
+
+
+// Logos
+.important-logos
+  position: relative
+  max-width: 750px
+  margin: 0px auto 100px
+  +display(flex)
+  +align-items(flex-end)
+  +justify-content(space-around)
+  
+  
+  .information-logo
+    cursor: pointer
+    margin: 0 20px 20px
+    padding-bottom: 20px
+    border-bottom: 4px solid transparent
+    opacity: 0.5
+    
+    &.active-information
+      opacity: 1
+      border-bottom: 4px solid $accent
+    
+
+.information-quote-mark
+  +position(absolute, -18px null null -15px)
+  +size(60px)
+  z-index: -1
+  opacity: 0.3
+  
+  path
+    fill: $accent
+
+
+
+// Controls
+.information-controls
+  +position(absolute, 0px 0px 0px 0px) 
+  z-index: 2
+  
+  > div
+    +size(40px)
+    margin-top: -20px
+    cursor: pointer
+    
+    path
+      fill: $accent
+    
+  .information-control-next
+    +position(absolute, 50% 10px null null)
+  
+  .information-control-prev
+    +position(absolute, 50% null null 10px)
+
+// clients-mobile-nav
+.important-mobile-nav
+  text-align: center
+  position: relative
+  z-index: 2
+  display: none
+  
+  span
+    display: inline-block
+    +size(16px)
+    border-radius: 50%
+    border: solid 2px $bgcolor
+    margin: 0px 10px
+    cursor: pointer
+    
+    &.active-information
+      border-color: $accent
+    
+    
+    
+
+@media (max-width: 750px)
+  .important-logos
+    +flex-wrap(wrap)
+  
+  .important-belt 
+    overflow-x: hidden
+    
+    .information-unit.active-information
+      display: block
+      position: relative
+      margin-left: 0px
+      left: auto
+    
+      .information-face
+        margin-bottom: 30px
+      
+      .information-content
+        padding: 0px 30px
+        max-width: 400px
+        margin: 0px auto
+      
+      .information-quote-mark
+        left: 6px
+
+  .information-controls
+    display: none
+  
+  .important-logos
+    display: none
+
+  .important-mobile-nav
+    display: block
+    
+    
+    
+    
+    
+    
+    
+    
