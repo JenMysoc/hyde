@@ -1,0 +1,43 @@
+<section class="section-important">
+    <div class="blurb">
+      {{ site.data.settings.blurb2 | markdownify }}
+    </div>
+
+  <h3 id="important">Important Information</h3>
+
+  <div class="important-mobile-nav">
+    {% for information in site.data.settings.important %}
+      {% if forloop.first %}
+        <span class="active-information"></span>
+      {% else %}
+        <span></span>
+      {% endif %}
+    {% endfor %}
+  </div>
+
+  <div class="important-belt">
+    {% for information in site.data.settings.information %}
+      <div class="information-unit {% if forloop.first %}active-information{% endif %}">
+
+        <figure class="information-face">
+          <img src="assets/img/clients/{{ information.avatar }}" alt="information-icon">
+          <figcaption>
+            <strong class="information-name">{{ information.name }}</strong>
+          </figcaption>
+        </figure>
+
+        <div class="information-content">
+          <div class="information-quote-mark">{% include icons/icon-quote-mark.html %}</div>
+          {{ information.quote }}
+        </div>
+      </div>
+    {% endfor %}
+  
+  </div>
+
+  <div class="information-controls">
+    <div class="information-control-next">{% include icons/icon-next.html %}</div>
+    <div class="information-control-prev">{% include icons/icon-prev.html %}</div>
+  </div>
+
+</section>
