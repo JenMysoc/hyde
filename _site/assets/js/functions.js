@@ -252,7 +252,7 @@ function informationStuff() {
 				
 				if (style) {
 
-					width = ta.getBoundingClientRect().width;
+					width = ta.getBoundingInformationRect().width;
 
 					if (width === 0 || typeof width !== 'number') {
 						width = parseInt(style.width,10);
