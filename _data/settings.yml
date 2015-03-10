@@ -4,6 +4,7 @@
 title: Josh and Jenn's Wedding
 description: September 5th 2015 // 16:00 // Arnos Vale Cemetary Bristol
 email: jen@mysociety.org
+google: https://docs.google.com/a/mysociety.org/forms/d/1sE1BXqt05rpiuipIHdNrFrQEYAj4845LFRn5LrVplgo/viewform
 
 # NOTE: The Logo and Background image are defined in the all.sass document.
 
@@ -74,7 +75,5 @@ blurb3: >
 blurb4: > 
  We'd like you to RSVP online so we can collect other data we need (food allergies, accomodation needs etc)
 
-google: 
-    title: RSVP Here
-    URL: https://docs.google.com/a/mysociety.org/forms/d/1sE1BXqt05rpiuipIHdNrFrQEYAj4845LFRn5LrVplgo/viewform
+
 
