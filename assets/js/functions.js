@@ -87,7 +87,7 @@ function informationStuff() {
       if($this.hasClass('information-control-next')) {
         
         if(position < informationNum -1){
-          $('.information-client').removeClass('active-information').next().addClass('active-information');
+          $('.active-information').removeClass('active-information').next().addClass('active-information');
         } else {
           $('.information-unit').removeClass('active-information').first().addClass('active-information');
           $('.information-logo').removeClass('active-information').first().addClass('active-information');
