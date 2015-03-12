@@ -28,11 +28,16 @@ seo:
 # NOTE: The avatar is defined in the all.sass document.
 
 blurb: >
-     **Josh and Jenn are getting married on Saturday September 5th 2015 at 4pm in the Underwood Centre at Arnos
-     Vale Cemetary, Bristol**. The [Underwood Centre](http://www.arnosvale.org.uk/weddings) is a woodland venue
-     and the ceremony and pre-wedding breakfast drinks will be held here, so sensible shoes are advised
-     (especially as the path to the venue is steep and cobbled). 
-
+     <p>
+       <strong>
+         Josh and Jenn are getting married on Saturday September 5th 2015 at
+         4pm in the Underwood Centre at Arnos Vale Cemetary, Bristol.
+        </strong>
+     </p>
+     The [Underwood Centre](http://www.arnosvale.org.uk/weddings) is a woodland
+     venue and the ceremony and pre-wedding breakfast drinks will be held here,
+     so sensible shoes are advised (especially as the path to the venue is
+     steep and cobbled).
 
 #-------------------------------
 # important Section
@@ -63,10 +68,11 @@ information:
 #------------------------------- # Reception Section
 
 blurb3: > 
+        <p>
         The reception will be held at the Spielman Centre at Arnos Vale Cemetary in Bristol from 2030
         onwards. There will be no food served at the reception (apart from cake) and the bar is a paid bar! We have
         to leave Arnos Vale Cemetary at 2300 on the dot but we will be continuing the party, for those who wish to stay out, at Mr Wolf's in the centre of Bristol.
-
+        </p>
         Please arrive dead on 2030 if you want to join in the speeches and toasts.
 
 #-------------------------------
