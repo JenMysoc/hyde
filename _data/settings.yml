@@ -2,8 +2,9 @@
 # General Site Settings
 
 title: Josh and Jenn's Wedding
-description: September 5th 2015 // 16:00 // Arnos Vale Cemetary Bristol
+description: September 5th 2015 // 16:00 // Arnos Vale Cemetery Bristol
 email: jen@mysociety.org
+google: https://docs.google.com/a/mysociety.org/forms/d/1sE1BXqt05rpiuipIHdNrFrQEYAj4845LFRn5LrVplgo/viewform
 
 # NOTE: The Logo and Background image are defined in the all.sass document.
 
@@ -27,11 +28,16 @@ seo:
 # NOTE: The avatar is defined in the all.sass document.
 
 blurb: >
-     **Josh and Jenn are getting married on Saturday September 5th 2015 at 4pm in the Underwood Centre at Arnos
-     Vale Cemetary, Bristol**. The [Underwood Centre](http://www.arnosvale.org.uk/weddings) is a woodland venue
-     and the ceremony and pre-wedding breakfast drinks will be held here, so sensible shoes are advised
-     (especially as the path to the venue is steep and cobbled). 
-
+     <p>
+       <strong>
+         Josh and Jenn are getting married on Saturday September 5th 2015 at
+         4pm in the Underwood Centre at Arnos Vale Cemetery, Bristol.
+        </strong>
+     </p>
+     The [Underwood Centre](http://www.arnosvale.org.uk/weddings) is a woodland
+     venue and the ceremony and pre-wedding breakfast drinks will be held here,
+     so sensible shoes are advised (especially as the path to the venue is
+     steep and cobbled).
 
 #-------------------------------
 # important Section
@@ -53,7 +59,7 @@ information:
       }
    - {avatar: '',
       name: 'Dress Code',
-      quote: <p><strong>We have no strict opinions. We just want you to be comfortable and have a good time</strong>. Some recommendations though; As the ceremony is outside and english weather is unpredictable we'd suggest you bring an umbrella or and maybe a light jacket. There are some steep paths around the cemetary so high heels really wouldn't be recommended. </p>,
+      quote: <p><strong>We have no strict opinions. We just want you to be comfortable and have a good time</strong>. Some recommendations though; As the ceremony is outside and english weather is unpredictable we'd suggest you bring an umbrella or and maybe a light jacket. There are some steep paths around the Cemetery so high heels really wouldn't be recommended. </p>,
       }
    - {avatar: '',
       name: 'Gifts',
@@ -62,10 +68,11 @@ information:
 #------------------------------- # Reception Section
 
 blurb3: > 
-        The reception will be held at the Spielman Centre at Arnos Vale Cemetary in Bristol from 2030
+        <p>
+        The reception will be held at the Spielman Centre at Arnos Vale Cemetery in Bristol from 2030
         onwards. There will be no food served at the reception (apart from cake) and the bar is a paid bar! We have
-        to leave Arnos Vale Cemetary at 2300 on the dot but we will be continuing the party, for those who wish to stay out, at Mr Wolf's in the centre of Bristol.
-
+        to leave Arnos Vale Cemetery at 2300 on the dot but we will be continuing the party, for those who wish to stay out, at Mr Wolf's in the centre of Bristol.
+        </p>
         Please arrive dead on 2030 if you want to join in the speeches and toasts.
 
 #-------------------------------
@@ -74,7 +81,5 @@ blurb3: >
 blurb4: > 
  We'd like you to RSVP online so we can collect other data we need (food allergies, accomodation needs etc)
 
-google: 
-    title: RSVP Here
-    URL: https://docs.google.com/a/mysociety.org/forms/d/1sE1BXqt05rpiuipIHdNrFrQEYAj4845LFRn5LrVplgo/viewform
+
 

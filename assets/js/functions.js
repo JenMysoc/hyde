@@ -87,7 +87,7 @@ function informationStuff() {
       if($this.hasClass('information-control-next')) {
         
         if(position < informationNum -1){
-          $('.information-client').removeClass('active-information').next().addClass('active-information');
+          $('.active-information').removeClass('active-information').next().addClass('active-information');
         } else {
           $('.information-unit').removeClass('active-information').first().addClass('active-information');
           $('.information-logo').removeClass('active-information').first().addClass('active-information');
@@ -252,7 +252,7 @@ function informationStuff() {
 				
 				if (style) {
 
-					width = ta.getBoundingClientRect().width;
+					width = ta.getBoundingInformationRect().width;
 
 					if (width === 0 || typeof width !== 'number') {
 						width = parseInt(style.width,10);
