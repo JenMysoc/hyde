@@ -6,7 +6,7 @@
   <h3 id="important">Important Information</h3>
 
   <div class="important-mobile-nav">
-    {% for information in site.data.settings.important %}
+    {% for information in site.data.settings.information %}
       {% if forloop.first %}
         <span class="active-information"></span>
       {% else %}
@@ -20,7 +20,6 @@
       <div class="information-unit {% if forloop.first %}active-information{% endif %}">
 
         <figure class="information-face">
-          <img src="assets/img/clients/{{ information.avatar }}" alt="information-icon">
           <figcaption>
             <strong class="information-name">{{ information.name }}</strong>
             <em class="information-title">{{ information.title }}</em>
@@ -42,11 +41,11 @@
   </div>
   
   <div class="important-logos">
-    {% for information in site.data.settings.important %}
+    {% for information in site.data.settings.information %}
       {% if forloop.first %}
-        <img class="information-logo active-information" src="assets/img/clients/{{ client.logo }}" align="{{ client.logo }}">
+        <img class="information-logo active-information" src="assets/img/clients/{{ information.logo }}" align="{{ information.logo }}">
       {% else %}
-        <img class="information-logo" src="assets/img/clients/{{ client.logo }}" align="{{ client.logo }}">
+        <img class="information-logo" src="assets/img/clients/{{ information.logo }}" align="{{ information.logo }}">
       {% endif %}
     {% endfor %}
   </div>
