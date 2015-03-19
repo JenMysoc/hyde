@@ -5,6 +5,7 @@
 
   <h3 id="important">Important Information</h3>
 
+  <div class="important-slideshow">
   <div class="important-mobile-nav">
     {% for information in site.data.settings.information %}
       {% if forloop.first %}
@@ -49,5 +50,6 @@
       {% endif %}
     {% endfor %}
   </div>
+</div>
   
 </section>

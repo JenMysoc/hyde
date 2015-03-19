@@ -44,7 +44,8 @@ blurb: >
 # important Section
 
 blurb2: >
-      Some important information for those attending the ceremony or reception, including our [honeymoon fund](http://www.honeyfund.co.uk/wedding/bramdenwedding) . Please scroll through!
+      <p>Some important information for those attending the ceremony or reception, including our <a href="http://www.honeyfund.co.uk/wedding/bramdenwedding">honeymoon fund</a> . Please click the arrows to scroll through!</p>
+
 information: 
    - {name: 'Parking',
       quote: <p><strong>There is very limited parking at the venue.</strong> The nearest train station is Temple Meads located just under a mile east of the site. Taxis are available from outside Temple Meads station. Bus services 1 X39 57 178 and 349 stop outside the Bath Road gates. These are the best ways to get to the venue.</p>,
