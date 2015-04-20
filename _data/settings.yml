@@ -13,6 +13,7 @@ menu:
 - {name: important, url: '#important'}
 - {name: reception, url: '#reception'}
 - {name: rsvp, url: '#rsvp'}
+- {name: directions, url: '#directions'}
 
 #-------------------------------
 # SEO Section
@@ -43,27 +44,28 @@ blurb: >
 # important Section
 
 blurb2: >
-      Some important information for those attending the ceremony or reception. Please scroll through!
+      <p>Some important information for those attending the ceremony or reception, including our <a href="https://www.trevolta.com/trips/route-61-roadtrip-honeymoon-29155">honeymoon fund</a> . Please click the arrows to scroll through!</p>
+
 information: 
-   - {avatar: 'icon-pencil.html',
-      name: 'Parking',
-      quote: <p><strong>There is very limited parking at the venue.</strong> The nearest train station is Temple Meads located just under a mile east of the site. Taxis are available from outside Temple Meads station. Bus services 1 X39 57 178 and 349 stop outside the Bath Road gates. These are the best ways to get to the venue.</p>,
+   - {name: 'Parking',
+      quote: <p><strong>There is very limited parking at the venue.</strong> The nearest train station is Temple Meads located just under a mile west of the site. Taxis are available from outside Temple Meads station. Bus services 1 X39 57 178 and 349 stop outside the Bath Road gates. These are the best ways to get to the venue.</p>,
+      logo: 'parking.jpg',
       }
-   - {avatar: '',
-      name: 'Invitees Only',
-      quote: <p><strong>We have limited numbers at the ceremony and reception.</strong> We want to have an small intimate celebration and we had to be creative in making sure that we can fit everyone in our venue. There really is no room for unexpected extras. So please only the people whose names appear on the invite envelope are asked to RSVP. Sorry.</p>,
+   - {name: 'Invitees Only',
+      quote: <p><strong>We have limited numbers at the ceremony and reception.</strong> We want to have a small intimate celebration and we had to be creative in making sure that we can fit everyone in our venue. There really is no room for unexpected extras. So please only the people whose names appear on the invite envelope are asked to RSVP. Sorry.</p>,
+      logo: 'rsvp.jpg',
       }
-   - {avatar: '',
-      name: 'Invitees Only',
+   - {name: 'Food',
       quote: <p><strong>Ceremony guests will be fed!</strong> We will be having mezze and tagines served in the Spielman Centre at 1830. Since the ceremony starts at 1600 we suggest you have lunch beforehand. There are a number of great restaurants in Bristol so let us know if you need recommendations.</p>,
+      logo: 'food.jpg',
       }
-   - {avatar: '',
-      name: 'Dress Code',
+   - {name: 'Dress Code',
       quote: <p><strong>We have no strict opinions. We just want you to be comfortable and have a good time</strong>. Some recommendations though; As the ceremony is outside and english weather is unpredictable we'd suggest you bring an umbrella or and maybe a light jacket. There are some steep paths around the Cemetery so high heels really wouldn't be recommended. </p>,
+      logo: 'dreescode.jpg',
       }
-   - {avatar: '',
-      name: 'Gifts',
-      quote: <p><strong>We don't need presents we just want you presence</strong> however if you want to give a gift please make a donation to our honeymoon fund!</p>
+   - {name: 'Gifts',
+      quote: <p><strong>We don't need presents we just want you presence</strong> however if you want to give a gift please make a donation to our honeymoon fund! If you donate through the  <a href="https://www.trevolta.com/trips/route-61-roadtrip-honeymoon-29155">Trevola page</a> 6% of the donation goes to Trevolta. If you wish to donate directly email Jen! </p>,
+      logo: 'gifts.jpg',
       }
 #------------------------------- # Reception Section
 
@@ -80,6 +82,9 @@ blurb3: >
 
 blurb4: > 
  We'd like you to RSVP online so we can collect other data we need (food allergies, accomodation needs etc)
+
+#-------------------------------
+# Directions Section
 
 
 
