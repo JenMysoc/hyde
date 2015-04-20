@@ -48,11 +48,11 @@ blurb2: >
 
 information: 
    - {name: 'Parking',
-      quote: <p><strong>There is very limited parking at the venue.</strong> The nearest train station is Temple Meads located just under a mile east of the site. Taxis are available from outside Temple Meads station. Bus services 1 X39 57 178 and 349 stop outside the Bath Road gates. These are the best ways to get to the venue.</p>,
+      quote: <p><strong>There is very limited parking at the venue.</strong> The nearest train station is Temple Meads located just under a mile west of the site. Taxis are available from outside Temple Meads station. Bus services 1 X39 57 178 and 349 stop outside the Bath Road gates. These are the best ways to get to the venue.</p>,
       logo: 'parking.jpg',
       }
    - {name: 'Invitees Only',
-      quote: <p><strong>We have limited numbers at the ceremony and reception.</strong> We want to have an small intimate celebration and we had to be creative in making sure that we can fit everyone in our venue. There really is no room for unexpected extras. So please only the people whose names appear on the invite envelope are asked to RSVP. Sorry.</p>,
+      quote: <p><strong>We have limited numbers at the ceremony and reception.</strong> We want to have a small intimate celebration and we had to be creative in making sure that we can fit everyone in our venue. There really is no room for unexpected extras. So please only the people whose names appear on the invite envelope are asked to RSVP. Sorry.</p>,
       logo: 'rsvp.jpg',
       }
    - {name: 'Food',
@@ -64,7 +64,7 @@ information:
       logo: 'dreescode.jpg',
       }
    - {name: 'Gifts',
-      quote: <p><strong>We don't need presents we just want you presence</strong> however if you want to give a gift please make a donation to our honeymoon fund!</p>,
+      quote: <p><strong>We don't need presents we just want you presence</strong> however if you want to give a gift please make a donation to our honeymoon fund! If you donate through the  <a href="https://www.trevolta.com/trips/route-61-roadtrip-honeymoon-29155">Trevola page</a> 6% of the donation goes to Trevolta. If you wish to donate directly email Jen! </p>,
       logo: 'gifts.jpg',
       }
 #------------------------------- # Reception Section
