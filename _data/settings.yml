@@ -44,7 +44,7 @@ blurb: >
 # important Section
 
 blurb2: >
-      <p>Some important information for those attending the ceremony or reception, including our <a href="https://www.trevolta.com/trips/route-61-roadtrip-honeymoon-29155">honeymoon fund</a> . Please click the arrows to scroll through!</p>
+      <p>Some important information for those attending the ceremony or reception, including our <a href="http://www.honeyfund.co.uk/wedding/bramdenwedding">honeymoon fund</a> . Please click the arrows to scroll through!</p>
 
 information: 
    - {name: 'Parking',
@@ -64,7 +64,7 @@ information:
       logo: 'dreescode.jpg',
       }
    - {name: 'Gifts',
-      quote: <p><strong>We don't need presents we just want you presence</strong> however if you want to give a gift please make a donation to our honeymoon fund! If you donate through the Trevola page 6% of the donation goes to Trevolta. If you wish to donate directly email Jen!</p>,
+      quote: <p><strong>We don't need presents we just want you presence</strong> however if you want to give a gift please make a donation to our honeymoon fund! You can also send us money via paypal to Jen's email address or ask for Bank Details!</p>,
       logo: 'gifts.jpg',
       }
 #------------------------------- # Reception Section
